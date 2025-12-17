@@ -1,8 +1,10 @@
-<!-- ♻️ E-Waste Collection Backend -->
+♻️ E-Waste Collection Backend
+===============================
 
 A production-ready backend system built with Node.js, Express, and MongoDB to manage e-waste collection using role-based access, secure authentication and strict status lifecycle enforcement.
 
-<!-- 🚀 Project Overview -->
+🚀 Project Overview
+====================
 
 This backend handles the complete workflow of e-waste collection:
 
@@ -10,17 +12,21 @@ This backend handles the complete workflow of e-waste collection:
 
 Each step is validated, secured, and controlled by user roles.
 
-<!-- 👥 User Roles -->
+👥 User Roles
+===============
 
-<!-- 👑 Admin -->
+👑 Admin
+===========
 
 Create collection requests → Assign technicians → View all collections → View activity logs → View dashboard statistics
 
-<!-- 🛠 Technician -->
+🛠 Technician
+==============
 
 View only assigned collections → Mark collection as picked → Mark collection as completed → View logs for assigned collections only
 
-<!-- 🔐 Authentication & Authorization -->
+🔐 Authentication & Authorization
+===================================
 
 → JWT-based authentication
 
@@ -30,7 +36,8 @@ View only assigned collections → Mark collection as picked → Mark collection
 
 → Protected APIs for admin and technician actions
 
-<!-- 🔄 Collection Lifecycle (Strict) -->
+🔄 Collection Lifecycle (Strict)
+==================================
 
 |  Status   | Allowed By |      Rule         |
 | --------- | ---------- | ----------------- |
@@ -41,7 +48,8 @@ View only assigned collections → Mark collection as picked → Mark collection
 
 Note: Invalid transitions are blocked.
 
-<!-- 🧾 Activity Logs (Audit Trail) -->
+🧾 Activity Logs (Audit Trail)
+================================
 
 → Important actions (assign, pick, complete) are logged automatically
 
@@ -53,7 +61,8 @@ Note: Invalid transitions are blocked.
 
 Note: Logs are read-only
 
-<!-- 📊 Dashboard APIs -->
+📊 Dashboard APIs
+======================
 
 → Status-wise collection counts
 
@@ -61,7 +70,8 @@ Note: Logs are read-only
 
 → Useful for admin dashboards and analytics
 
-<!-- 🗂 Project Structure -->
+🗂 Project Structure
+=====================
 
 src/
 ├── controllers
@@ -71,16 +81,19 @@ src/
 ├── utils
 └── index.js
 
-<!-- 🛠 Tech Stack -->
+🛠 Tech Stack
+===============
 
 Node.js → Express.js → MongoDB → Mongoose → JWT Authentication
 
-<!-- 🏁 Project Status -->
+🏁 Project Status
+===================
 
 ✅ Backend complete and production-ready
 🚀 Ready for frontend integration or deployment
 
-<!-- 🏆 Final Note -->
+🏆 Final Note
+================
 
 This project demonstrates:
 
